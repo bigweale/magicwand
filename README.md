@@ -3,9 +3,9 @@
 A simple project to control a IOT lightbulb by tracking a reflected infrared point. This project includes the base python file and some sample data files for training.
 
 ## Hardware
-* Raspberry Pi B (3rd Gen)
-* Camera
-* Point-based IR-reflective device (such as Wand from Universal Studios)
+* Raspberry Pi 3 Model B Plus (Rev 1.3)
+* [AdruCAM NOIR 5MP OV5647](https://)
+* [Point-Based IR Reflective Device](https://shop.universalorlando.com/c/Harry-Potter-Interactive-Wands.html)
 
 ## Software
 * [Raspbian](https://www.raspberrypi.org/downloads/raspbian/)
