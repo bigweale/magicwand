@@ -4,7 +4,7 @@ A simple project to control a IOT lightbulb by tracking a reflected infrared poi
 
 ## Hardware
 * Raspberry Pi 3 Model B Plus (Rev 1.3)
-* [AdruCAM NOIR 5MP OV5647](https://)
+* [AdruCAM NOIR 5MP OV5647](https://smile.amazon.com/dp/B083514WC2/ref=cm_sw_em_r_mt_dp_U_CT-XEb9GKXEKH)
 * [Point-Based IR Reflective Device](https://shop.universalorlando.com/c/Harry-Potter-Interactive-Wands.html)
 
 ## Software
