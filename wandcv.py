@@ -67,7 +67,8 @@ knn.fit(x,y)
 inc=0
 curr_pred = 'Z'
 prev_pred = 'Z'
-    
+
+## MAIN IMAGE PROCESSING LOOP ##
 for image in camera.capture_continuous(rawCapture, format='bgr', use_video_port=True):
     
     # Convert raw camera capture to a thresholded, binary image
