@@ -32,10 +32,6 @@ rawCapture = PiRGBArray(camera, size = (640, 480))
 # Ensure that the camera is in 'night vision' mode
 subprocess.Popen(['python3', 'CameraLED.py', 'off'])
 
-# Create SimpleBlobDetector 
-# params = cv2.SimpleBlobDetector_Params()
-# detector = cv2.SimpleBlobDetector_create(params)
-
 # Initialize Vision Background Model and Kernel for Expansion/Dilation
 backSub = cv2.createBackgroundSubtractorKNN()
 kernel = np.ones((5,5), np.uint8)
